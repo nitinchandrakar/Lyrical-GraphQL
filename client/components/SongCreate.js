@@ -19,7 +19,7 @@ class SongCreate extends Component {
     this.props
       .mutate({
         variables: {
-          title: this.state.title,
+          title: this.state.title
         },
         refetchQueries: [{ query}],
       })
